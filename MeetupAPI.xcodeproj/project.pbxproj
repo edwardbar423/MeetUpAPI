@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		49FE7E351DA193D0001E4959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E341DA193D0001E4959 /* AppDelegate.swift */; };
-		49FE7E371DA193D0001E4959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E361DA193D0001E4959 /* ViewController.swift */; };
+		49FE7E371DA193D0001E4959 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E361DA193D0001E4959 /* TableViewController.swift */; };
 		49FE7E3A1DA193D0001E4959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FE7E381DA193D0001E4959 /* Main.storyboard */; };
 		49FE7E3C1DA193D0001E4959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FE7E3B1DA193D0001E4959 /* Assets.xcassets */; };
 		49FE7E3F1DA193D0001E4959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FE7E3D1DA193D0001E4959 /* LaunchScreen.storyboard */; };
 		49FE7E4A1DA193D1001E4959 /* MeetupAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E491DA193D1001E4959 /* MeetupAPITests.swift */; };
 		49FE7E551DA193D1001E4959 /* MeetupAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E541DA193D1001E4959 /* MeetupAPIUITests.swift */; };
+		49FE7E631DA1EE44001E4959 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7E621DA1EE44001E4959 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		49FE7E311DA193D0001E4959 /* MeetupAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetupAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FE7E341DA193D0001E4959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49FE7E361DA193D0001E4959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49FE7E361DA193D0001E4959 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		49FE7E391DA193D0001E4959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49FE7E3B1DA193D0001E4959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FE7E3E1DA193D0001E4959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		49FE7E501DA193D1001E4959 /* MeetupAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FE7E541DA193D1001E4959 /* MeetupAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupAPIUITests.swift; sourceTree = "<group>"; };
 		49FE7E561DA193D1001E4959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FE7E621DA1EE44001E4959 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				49FE7E341DA193D0001E4959 /* AppDelegate.swift */,
-				49FE7E361DA193D0001E4959 /* ViewController.swift */,
+				49FE7E361DA193D0001E4959 /* TableViewController.swift */,
+				49FE7E621DA1EE44001E4959 /* CustomCell.swift */,
 				49FE7E381DA193D0001E4959 /* Main.storyboard */,
 				49FE7E3B1DA193D0001E4959 /* Assets.xcassets */,
 				49FE7E3D1DA193D0001E4959 /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FE7E371DA193D0001E4959 /* ViewController.swift in Sources */,
+				49FE7E371DA193D0001E4959 /* TableViewController.swift in Sources */,
+				49FE7E631DA1EE44001E4959 /* CustomCell.swift in Sources */,
 				49FE7E351DA193D0001E4959 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
